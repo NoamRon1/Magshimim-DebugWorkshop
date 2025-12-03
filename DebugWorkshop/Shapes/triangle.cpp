@@ -15,3 +15,7 @@ float Triangle::get_area(bool has_depth) const
 
 	return float(0.5 * _base * _height);
 }
+
+float Triangle::get_area() const { // will override get_area of shape class
+	return float(0.5 * _base * _height);
+}
